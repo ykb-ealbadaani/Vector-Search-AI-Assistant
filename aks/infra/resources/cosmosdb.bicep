@@ -21,6 +21,7 @@ resource cosmosDb 'Microsoft.DocumentDB/databaseAccounts@2023-04-15' = {
         locationName: location
       }
     ]
+    enableFreeTier: true
   }
   tags: tags
 }

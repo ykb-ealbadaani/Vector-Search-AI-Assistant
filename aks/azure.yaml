@@ -50,4 +50,4 @@ services:
             ingress:
                 name: web
 pipeline:
-    provider: github
+    provider: azdo
